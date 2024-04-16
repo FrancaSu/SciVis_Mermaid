@@ -2,7 +2,7 @@
 KI SciVis Course_Mermaid Exercise
 
 ```mermaid
- A[Hypothesis] -->|Get money| B(Do experiments related to the project) 
+    A[Hypothesis] -->|Get money| B(Do experiments related to the project) 
     A --> |Get money| H(Do experiments unrelated to the project) 
     H --> |One| K[Adjust]
     H --> |If it works| L[Abandon main project and continue with this project]

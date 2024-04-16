@@ -2,6 +2,7 @@
 KI SciVis Course_Mermaid Exercise
 
 ```mermaid
+ flowchart TD
     A[Hypothesis] -->|Get money| B(Do experiments related to the project) 
     A --> |Get money| H(Do experiments unrelated to the project) 
     H --> |One| K[Adjust]
@@ -11,5 +12,4 @@ KI SciVis Course_Mermaid Exercise
     D -->|One try| E[Adjust]
     D -->|Two| F[Pursue]
     D -->|Three| G[fa:fa-x Abandon]
-    
 ```
